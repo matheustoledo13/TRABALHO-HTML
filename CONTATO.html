@@ -3,36 +3,36 @@
     
     <head>
         <meta charset="utf-8">
-        <title>
-                Terceira página
-        </title>
+        <title>Terceira página</title>
+		<link rel="stylesheet" type="text/css" href="Layout.css"> 
     </head>
-        <body> 
-            <center>
-                    <h1 style="backgroud-color:DodgerBlue;"><a href ="INDEX.html">Home</a> <a href ="SOBRE.html">Sobre</a> <a href="Contato.html">Contato</a></h1>      
-                        <br>    
-                    <h1 style="backgroud-color:DodgerBlue;">Fale comigo:</h1>
-                        <br>   
+        <body>
+        	<br>
+                    <div class="classeTitulo"><a href ="INDEX.html">Home</a> <a href ="SOBRE.html">Sobre</a> <a href="Contato.html">Contato</a></div>      
+                        <br><br><br>  
+                    <div class="classeTexto1">Fale comigo:</div>
+                        <br><br> 
+                        <div class="classeTexto2">
                     <form action="/pagina-processa-dados-do-form" method="post">
                     <div>
-                        <b><label for="name">Nome:</label></b>
+                        <label for="name">Nome:</label>
                         <input type="text" id="name" />
                     </div>
                         <br>
                     <div>
-                        <b><label for="mail">E-mail:</label></b>
+                        <label for="mail">E-mail:</label>
                         <input type="email" id="mail" />
                     </div>
                         <br>
                     <div>
-                        <b><label for="msg">Mensagem:</label></b>
+                        <label for="msg">Mensagem:</label>
                         <textarea id="msg"></textarea>
                     </div>
                         <br>
                     <div class="button">
                         <button type="submit">Enviar</button>
                     </div>
+                    </div>
                 </form> 
-            </center>
          </body>
 </html>
